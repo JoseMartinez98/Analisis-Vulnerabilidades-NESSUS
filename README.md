@@ -1,4 +1,5 @@
 # Analisis-Vulnerabilidades-Nessus
+<img width="920" height="250" alt="image" src="https://github.com/user-attachments/assets/c340a155-5975-4527-a4e9-3264d2bdac04" />
 
 ## Gestión de Vulnerabilidades de Red: Guía Operativa con Nessus
 Este repositorio contiene un recurso técnico diseñado para analistas de seguridad que buscan profesionalizar y estandarizar sus flujos de trabajo en auditorías de infraestructura y redes. El objetivo es proporcionar una guía práctica, útil y orientada a escenarios reales, facilitando la identificación de activos críticos y la gestión de parches.
