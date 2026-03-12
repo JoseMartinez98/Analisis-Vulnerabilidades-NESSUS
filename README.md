@@ -8,6 +8,7 @@ Este repositorio contiene un recurso técnico diseñado para analistas de seguri
 El recurso se centra en el uso avanzado de Nessus Essentials, integrando metodologías de análisis de red que permiten una visibilidad completa de la superficie de ataque.
 
 ### Contenido del Repositorio
+
 * **Guía de Operación Rápida**: Flujo de trabajo desde el descubrimiento de hosts hasta la generación de reportes ejecutivos.
 
 * **CheatSheet de Auditoría**: Diferenciación técnica entre escaneos externos, internos y credencializados.
@@ -15,3 +16,7 @@ El recurso se centra en el uso avanzado de Nessus Essentials, integrando metodol
 * **Automatización con API**: Scripting en Python para la extracción masiva de hallazgos y monitorización de tareas.
 
 * **Gestión de Hallazgos**: Metodología para priorizar vulnerabilidades utilizando métricas CVSS y VPR.
+
+* **Instalación**: Guía paso a paso de como descargar e instalar.
+  
+* **Profundizando un poco**: Personalización de políticas en relación a un objetivo específico.
