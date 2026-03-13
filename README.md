@@ -158,4 +158,4 @@ En Nessus, en lugar de flags de consola, dominamos los Tipos de Escaneo:
 
 Al entrar al panel de control, vemos como hay un botón de new scan, pulsamos ahí y metemos la dirección ip a escanear, en mi caso localhost.
 
-
+![Texto alternativo](images/uso1.jpg)
