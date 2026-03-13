@@ -26,7 +26,7 @@ El recurso se centra en el uso avanzado de Nessus Essentials, integrando metodol
 ## 1. Guía de Instalación de Nessus Essentials en Windows
 Esta guía detalla el proceso paso a paso para instalar y configurar el escáner de vulnerabilidades Nessus en entornos Windows.
 
-## 📋 Requisitos del Sistema
+### 📋 Requisitos del Sistema
 Antes de comenzar, asegúrate de que tu equipo cumple con los siguientes requisitos mínimos:
 
 **Sistema Operativo**: Windows 10 / 11 o Windows Server 2016/2019/2022 (64-bit).
@@ -39,7 +39,7 @@ Antes de comenzar, asegúrate de que tu equipo cumple con los siguientes requisi
 
 **Navegador**: Chrome, Firefox o Edge (versiones recientes).
 
-## 🛠️ Paso 1: Obtención de la Licencia
+### 🛠️ Paso 1: Obtención de la Licencia
 Nessus Essentials requiere un código de activación gratuito que se envía por correo electrónico.
 
 Visita la página de registro de Tenable Nessus Essentials.
@@ -48,7 +48,7 @@ Introduce tu nombre, apellidos y un correo electrónico válido.
 
 Recibirás un email con el Activation Code. Guárdalo, lo necesitaremos en el Paso 4.
 
-## 📥 Paso 2: Descarga del Instalador
+### 📥 Paso 2: Descarga del Instalador
 Ve al portal de Descargas de Tenable.
 
 Busca la sección de Windows.
@@ -57,7 +57,7 @@ Descarga el archivo ejecutable más reciente (ejemplo: Nessus-10.x.x-x64.msi).
 
 ![Captura de pantalla 2026-03-12 080914](https://github.com/user-attachments/assets/c0936050-e6cb-464d-8d4d-811748d92a01)
 
-## ⚙️ Paso 3: Proceso de Instalación
+### ⚙️ Paso 3: Proceso de Instalación
 Haz doble clic en el archivo .msi descargado.
 
 Sigue el asistente de instalación:
@@ -78,7 +78,7 @@ Una vez finalizado, haz clic en Finish. El servicio de Nessus se iniciará autom
 
 ![Captura de pantalla 2026-03-12 081037](https://github.com/user-attachments/assets/c922a53a-2ca1-4c69-a76c-43e81656ad93)
 
-## 🌐 Paso 4: Configuración Web Inicial
+### 🌐 Paso 4: Configuración Web Inicial
 Nessus se gestiona a través de una interfaz web.
 
 Abre tu navegador y dirígete a: `https://localhost:8834`
@@ -105,13 +105,13 @@ Cuenta de Usuario: Crea un nombre de usuario y contraseña para acceder al panel
 
 ![Captura de pantalla 2026-03-12 081401](https://github.com/user-attachments/assets/b27af0d7-89a4-4028-8804-82f361a8da34)
 
-## ⏳ Paso 5: Descarga de Plugins
+### ⏳ Paso 5: Descarga de Plugins
 Tras configurar la cuenta, Nessus comenzará a descargar y compilar los plugins (las "firmas" de las vulnerabilidades).
 
 **IMPORTANTE**
 Este proceso puede tardar entre 20 y 60 minutos dependiendo de tu conexión a internet y la velocidad de tu CPU. No cierres el navegador ni apagues el equipo durante este proceso.
 
-## 🚦 Comandos de Consola Útiles
+### 🚦 Comandos de Consola Útiles
 Si necesitas gestionar el servicio manualmente, abre un Símbolo del Sistema (CMD) o PowerShell como Administrador:
 
 Iniciar el servicio:
@@ -120,7 +120,7 @@ Iniciar el servicio:
 Detener el servicio:
 `net stop "Tenable Nessus"`
 
-## 🛡️ Próximos Pasos
+### 🛡️ Próximos Pasos
 Una vez que veas el check verde de "Plugins Out to Date" y la interfaz de My Scans, estás listo para realizar tu primer escaneo.
 
 ******
