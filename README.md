@@ -234,12 +234,33 @@ Para estandarizar la respuesta del equipo de seguridad, seguimos esta matriz de 
 
 ## 5. Políticas Personalizadas
 
-No debemos quedarnos en la superficie de las políticas por defecto, debemos adaptarlas al tipo de escaneo que buscamos según nuestro objetivo, en este caso supongamos que tenemos como objetivo concreto windows. En el apartado de policies 
+No debemos quedarnos en la superficie de las políticas por defecto, debemos adaptarlas al tipo de escaneo que buscamos según nuestro objetivo, en este caso supongamos que tenemos como objetivo concreto windows. En el apartado de policies podemos establecer nuevas políticas a nuestro gusto.
 
 ![Texto alternativo](images/politicas1.jpg)
 
-podemos establecer nuevas políticas a nuestro gusto
+En este caso, vamos a hacer un escaneo avanzado
 
+![Texto alternativo](images/politicas2.jpg)
 
+Vamos a ir a la pestaña de plugins
 
+![Texto alternativo](images/politicas3.jpg)
+
+y ahí vamos a dar a deshabilitar todos
+
+![Texto alternativo](images/politicas4.jpg)
+
+y vamos a seleccionar por ejemplo los de windows únicamente
+
+![Texto alternativo](images/politicas5.jpg)
+
+Ahora, si queremos que el servidor no se ralentice, podemos reducir “Max simultaneous checks per host” a 2. Vamos a Settings > performance 
+
+![Texto alternativo](images/politicas6.jpg)
+
+![Texto alternativo](images/politicas7.jpg)
+
+y por último guardamos cambios con
+
+![Texto alternativo](images/politicas8.jpg)
 
